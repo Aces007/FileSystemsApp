@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Miyuki Sanada",
+    "age": "21",
+    "occupation": "Psychiatrist",
+    "civilStatus": "Single",
+    "birthdate": "2002-12-10",
+    "created_at": "8/25/2024, 12:10:15 AM"
+  },
+  {
+    "id": 2,
+    "name": "Jason",
+    "age": "21",
+    "occupation": "Psychiatrist",
+    "civilStatus": "Single",
+    "birthdate": "2002-12-10",
+    "created_at": "8/25/2024, 12:10:38 AM"
+  },
+  {
+    "id": 3,
+    "name": "Ace",
+    "age": "21",
+    "occupation": "System Developer",
+    "civilStatus": "Single",
+    "birthdate": "2003-05-07",
+    "created_at": "8/26/2024, 12:05:09 AM"
+  },
+  {
+    "id": 4,
+    "name": "Sean",
+    "age": "10",
+    "occupation": "Fireman",
+    "civilStatus": "Single",
+    "birthdate": "2014-06-18",
+    "created_at": "8/26/2024, 12:05:55 AM"
+  },
+  {
+    "id": 5,
+    "name": "James",
+    "age": "21",
+    "occupation": "Teacher",
+    "civilStatus": "Single",
+    "birthdate": "2002-12-14",
+    "created_at": "8/26/2024, 12:10:00 AM"
+  }
+]

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>File Systems App</title>
+        <link rel="stylesheet" href="css/index.css">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+    <body>
+        <div class="logo_cont">
+            <img src="assets/Logo.png" alt="secure-store-logo">
+            <h1 id="head_label">SecureStore</h1>
+        </div>
+        <div class="main_cont">
+            <form 
+                action=""
+                class="form_cont"
+            >
+                <h2>Enter Your Information</h2>
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" id="name_inp">
+                <label>Age</label>
+                <input type="text" placeholder="Enter your age" id="age_inp">
+                <label>Occupation</label>
+                <input type="text" placeholder="Enter your occupation" id="occupation_inp">
+                <label>Civil Status</label>
+                <input type="text" placeholder="Enter your civil status" id="civil_inp">
+                <label>Birthdate</label>
+                <input type="date" placeholder="Enter your birth" id="birth_inp">
+            </form>
+            <div class="function_btns">
+                <button onclick="writeFile()">Write to File</button>
+                <div class="txt_saving">
+                    <button onclick="readTXT()">Read TXT</button>
+                    <button onclick="saveTXT()">Save TXT</button>
+                </div>
+                <div class="json_saving">
+                    <button onclick="readJSON()">Read JSON</button>
+                    <button onclick="saveJSON()">Save JSON</button>
+                </div>
+            </div>
+        </div>
+        <div class="results">
+            <h2>Data Gathered</h2>
+            <div id="result_cont"></div>
+        </div>
+    </body>
+</html>
